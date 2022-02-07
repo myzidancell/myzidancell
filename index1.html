@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!---boostrap icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <title>Gojan</title>
+  </head>
+  <body id="home">
+    <!---Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">GO-JAN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <!-- Dropdown -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle"data-toggle="tooltip" data-placement="top" title="Info produk" data-bs-toggle="dropdown" aria-expanded="false">
+  Produk
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Onde-onde">Onde-onde</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Jalabria">Jolobiyo</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Risoles">Risoles</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Kue_lapisl">Kue Lapis</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Klepon">Klepon</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Kue_putu">Putu Ayu</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Dadar_gulung">Dadar Gulung</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Bacem">Tahu Bacem</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Donat">Kue Donat</a></li>
+    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Klenyem">Klenyem</a></li>
+  </ul>
+</div>
+<li class="nav-item">
+  <a class="nav-link" href="#about">About</a>
+</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Map</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex" >
+          <input class="form-control ms-3" type="search" placeholder="Cari produk" aria-label="Search">
+          <button class="btn btn-outline-light ms-2" type="submit">Search</button>
+        </form> 
+      </div>
+    </nav>
+
+    <!---Akhir Navbar-->
+    <!---Jumbotron -->
+    
+    <section class="jumbotron text-center"  />
+    <div id="runningtext">
+      <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+      Selamat Datang di Aplikasi Website Toko Online Jajanan lokal "Kembar Ayu",Alamat :Dk.Secentong Ds.Kenconorejo,Tulis-Batang
+      </marquee>
+    </div> 
+   <!--slider-->
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/gojan.jpg" width="350" class="rounded-circle img-thumbnail" data-aos="flip-left" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kembar.jpg"  width="350" class="rounded-circle img-thumbnail" data-aos="flip-left"class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/antar.jpg" width="350" class="rounded-circle img-thumbnail" data-aos="flip-left" class="d-block w-100" alt="...">
+      </div>
+      
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+      <!--akhir slider-->
+      
+      <h2 class="display-4"><b>GO-JAN </b></h2><h3> (KEMBAR AYU)</h3>
+      <p class="lead">Aplikasi Jajanan Lokal Siap Antar</p>
+
+<form action="#services">
+      <button type="submit" class="btn btn-danger mt-2" data-toggle="tooltip" data-placement="top" title="Lihat ready hari ini">BUKA MENU</button>
+    </form>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,154.7C1120,149,1280,75,1360,37.3L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </section>
+
+    <!---akhir Jumbotron--
+    <!-- About Us -->
+    <section id="about">
+      <div class="container"  data-aos="fade-up" data-aos-duration="2000">
+        <div class="row text-center mb-3 mt-5">
+          <div class="col">
+            <h2>Tentang Go-jan</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Go-jan (Golek Jajan) adalah aplikasi pemasaran produk Jajanan Lokal.
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,122.7C384,107,480,117,576,133.3C672,149,768,171,864,181.3C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <!--Akhir About-->
+    <section id="services">
+      <div class="container"  data-aos="fade-up" data-aos-duration="2000">
+         
+    <!--Awal Kategori-->
+    <div class="row text-center mb-3">
+      <div class="col"> 
+  <div class="fs-4" data-aos="fade-up" style="background-color: aqua" >KATEGORI</div>
+  </div>
+  
+
+
+  <div class="row text-center row-container mt-2">
+    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+      <div class="menu-kategori" data-aos="flip-left">
+        <a href="habis.html"><img src="kategori/ready.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3"></a>
+          <p class="mt-2 text-primary">Ready<br>Hari Ini</p>
+      </div>    
+    </div>
+
+    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+      <div class="menu-kategori"data-aos="flip-left"  >
+        <a href="Pesanan Khusus.html"><img src="kategori/khusus1.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3  "></a>
+          <p class="mt-2">Pesanan<br>Khusus</p>
+      </div>    
+    </div>
+  
+
+    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+      <div class="menu-kategori"data-aos="flip-left"  >
+        <a href="whatsapp.html"><img src="kategori/s.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3  "></a>
+          <p class="mt-2">Paket<br>Snack Box</p>
+      </div>    
+    </div>
+  
+
+<div class="col-lg-2 col-md-3 col-sm-4 col-4">
+  <div class="menu-kategori"data-aos="flip-left"  >
+    <a href="Pesanan Khusus.html"><img src="img/H1.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3 "></a>
+      <p class="mt-2">Paket<br>Hantaran</p>
+  </div>    
+</div>
+
+<div class="col-lg-2 col-md-3 col-sm-4 col-4">
+  <div class="menu-kategori"data-aos="flip-left"  >
+    <a href="ongkir.html"><img src="kategori/ongkir.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3"></a>
+      <p class="mt-2">Lihat<br>Ongkir</p>
+  </div>    
+</div>
+
+<div class="col-lg-2 col-md-3 col-sm-4 col-4">
+  <div class="menu-kategori"data-aos="flip-left"  >
+    <a href="semua.html"><img src="kategori/khusus.jpg" class="img-kategori mt-4 rounded-3 shadow p-1 mb-1 bg-succes rounded-3"></a>
+      <p class="mt-2">Semua<br>Produk</p>
+  </div>    
+</div>
+
+</div>
+</div>
+<!--
+<div class="row text-center mb-3" style="background-color: #e2edff;">
+  <div class="col">
+         
+    <form action="semua.html">
+      <button type="submit" class="btn btn-danger mt-2 btn-center"data-toggle="tooltip" data-placement="top" title="lihat semua produk" > LIHAT SEMUA PRODUK</button>
+    </form>
+   </div>
+
+
+    <!--Akhir Kategori-->
+    <!--Services-->
+   
+         
+              
+ <div class="row text-center mb-3">
+    <div class="col"> 
+<div class="fs-4" style="background-color: aqua" >MY GALLERY</div>
+</div>
+
+                  
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/belajar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Belajar Memasak</h5>
+        <p>Kegiatan anak-anak SD Kenconorejo 01 sedang belajar membuat Jajanan</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/belajar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Belajar Memasak</h5>
+        <p>Kegiatan anak-anak SD Kenconorejo 01 sedang belajar membuat Jajanan</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/belajar.jpg" class="d-block w-100" alt="belajar">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Belajar Memasak</h5>
+        <p>Kegiatan anak-anak SD Kenconorejo 01 sedang belajar membuat Jajanan</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+        <!--Akhir About-->
+        
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,133.3C672,149,768,171,864,192C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </section>
+          <!--Akhir Servises-->
+         
+    <!--Contact-->
+    
+    <section id="contact">
+      <div class="container"  data-aos="fade-up" data-aos-duration="2000">
+        
+        <div class="row text-center mb-3 " style="background-color: #fff;>
+          <div class="col">
+            <h2>Lokasi Lapak</h2>
+            <p class="card-text text-center  fs-10">(Untuk menuju ke lokasi,klik "Lihat Peta Lebih besar" pada Map,kemudian klik "Mulai"  dibawah map)</p>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center"data-aos="zoom-in" >
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6563375978176!2d109.80635101400279!3d-6.931615669774481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e703d71b22fd63b%3A0x2c613cfabd989125!2sJajanan%20Tradisional%22KEMBAR%20AYU%22!5e0!3m2!1sid!2sid!4v1636446033052!5m2!1sid!2sid>"
+                width="375"
+                height="450"
+                style="border: 2"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dc3546" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,80C672,53,768,75,864,117.3C960,160,1056,224,1152,213.3C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!--Akhir Contact-->
+    <!--Footer-->
+    <footer class="bg-danger text-white text-center pb-5" >
+    <p>Supported By:<br> <i class="bi bi-youtube"></i> <a href="https://www.youtube.com/channel/UCe7yCFkQjhLhDnskH454iOg" class="text-white fw-bold">Kembar Ayu</a>  <i class="bi bi-youtube"></i> <a href="https://www.youtube.com/channel/UC07i__Vmr-wVi5mLkacJRiQ" class="text-white fw-bold">My Zidancell</a>   <i class="bi bi-whatsapp">  </i> <a href="https://wa.me/+6282251716624" class="text-white fw-bold">Kembar Ayu</a> </p>
+    <p>Copyright&copy;2021</p></div>
+    </footer>
+    <!--Akhir Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/JavaScript">
+      function search() {
+        cosnt searchingengine - document.form('aksi').queryselector('search'); 
+      }
+    </script>
+    <script type="text/javascript" src="tooltip.js"></script>
+  </body>
+</html>
