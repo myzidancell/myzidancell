@@ -8,6 +8,7 @@ body {
 }
 #services {
   background-color: #e2edff;
+  padding: auto;
 }
 section {
   padding-top: 1rem;
