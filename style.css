@@ -26,3 +26,11 @@ section {
 #gallery .row > * {
   padding: 2px;
 }
+/*style kategori*/
+.img-kategori{
+  
+  width :100px;
+}
+.img-kategori:hover{
+  transform: scale(1.2);
+  transition: 0.2s;
