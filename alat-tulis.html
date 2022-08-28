@@ -12,9 +12,10 @@
     <!--My CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Keperluan Sekolah</title>
+    <title>Buku Bacaan</title>
   </head>
   <body id="home">
+    
     <!---Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
@@ -22,98 +23,115 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href=""https://docs.google.com/forms/d/1Un0y5YFnCqDZ2fZN6nj-dWTQ8E8HFDcgylQDoxxqcYg/edit">Jadi Agen Pulsa</a>
+            <!-- Dropdown -->
+<div class="btn-group">  
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+   Services
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://docs.google.com/forms/d/1Un0y5YFnCqDZ2fZN6nj-dWTQ8E8HFDcgylQDoxxqcYg/edit">Pendaftaran Agen Pulsa</a></li>
+    <!--<li><a class="dropdown-item" href="loket_pembayaran.html">loket Pembayaran</a></li>-->
+    <li><a class="dropdown-item" href="katalog_undangan.html">Pesan Undangan</a></li>
+    <li><a class="dropdown-item" href="keperluan_sekolah.html">Keperluan Sekolah</a></li>
+  <!--
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Keperluan Sekolah
+      </button>
+     
+    </div>
+   <!-- <li><a class="dropdown-item" href="aksesoris.html">Aksesoris</a></li>-->
+  </ul>
+</div>
+<li class="nav-item">
+  <a class="nav-link" href="#about">About</a>
+</li>
+         <!---  <li class="nav-item">
+              <a class="nav-link" href="#contact">Map</a>
             </li>
-           <!--<li class="nav-item">
-              <a class="nav-link" href="loket_pembayaran.html">Loket Pembayaran</a>
-            </li>--> 
-            <li class="nav-item">
-              <a class="nav-link" href="katalog_undangan.html">Percetakan Undangan</a>
-            </li>
-           
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Keperluan Sekolah
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="buku_bacaan.html">Buku Bacaan</a></li>
-                <li><a class="dropdown-item" href="alat_tulis.html">Alat Tulis</a></li>
-                <li><a class="dropdown-item" href="pramuka.html">Keperluan Pramuka</a></li>
-                <!--
-                <li><a class="dropdown-item" href="peralatan_sekolah.html">Peralatan Sekolah</a></li>
-                <li><a class="dropdown-item" href="serba_serbi.html">Serba-serbi Sekolah</a></li>-->
-              </ul>
-            </div>
-            </li>
-          </ul>
+          </ul>-->
         </div>
+        <form class="d-flex" >
+          <input class="form-control ms-3" type="search" placeholder="Cari produk" aria-label="Search">
+          <button class="btn btn-outline-light ms-2" type="submit">Search</button>
+        </form> 
       </div>
     </nav>
-
     <!---Akhir Navbar-->
-   
-    <!--Keperluan Sekolah -->
+    <!--Daftar buku -->
     <section id="services">
-      < <div class="container"  data-aos="fade-up" data-aos-duration="2000">
-        <div class="row text-center mb-8 mt-4">
+      <div class="container">
+        <div class="row text-center mb-3 P-5">
           <div class="col">
-            <h2>KEPERLUAN SEKOLAH</h2>
+            <h2>ALAT TULIS</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-1">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
             <div class="card">
-              <img src="img/services/bukubacaan.jpg" class="card-img-top" alt="services/keperluan_sekolah">
+              <img src="img/services/janji.jpg" class="card-img-top" alt="services/janji">
               <div class="card-body">
-                <a href="buku_bacaan.html" class="btn btn-info d-grid text-white"><i class="bi bi-hand-index">    LIHAT BUKU BACAAN </i></a>
-          
+                <p class="card-text text-center"><b>KITAB BARZANJI</b> <br> Rp.18.000 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-1">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
             <div class="card">
-              <img src="img/services/alat_tulis.jpg" class="card-img-top" alt="services/alat_tulis">
+              <img src="img/services/yasin1.jpg" class="card-img-top" alt="services/pulsa">
               <div class="card-body">
-                <a href="alat-tulis.html" class="btn btn-info d-grid text-white"><i class="bi bi-hand-index">  LIHAT ALAT TULIS </i></a>
+                <p class="card-text text-center"><b>KITAB YASIN (SAKU)</b> <br> Rp.3.000 <br>(Ready)</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-1">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
             <div class="card">
-              <img src="img/services/pramukaa.jpg" class="card-img-top" alt="services/pulsa">
+              <img src="img/services/yasin2.jpg" class="card-img-top" alt="services/pulsa">
               <div class="card-body">
-                <a href="alat-tulis.html" class="btn btn-info d-grid text-white"><i class="bi bi-hand-index">  PERLENGKAPAN PRAMUKA </i></a>
+                <p class="card-text text-center"><b>YASIN TERJEMAH</b> <br> Rp.7.000 <br>(Ready)</p>
               </div>
             </div>
           </div>
-          <!--
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
             <div class="card">
-              <img src="img/services/sekolah.jpg" class="card-img-top" alt="services/pulsa">
+              <img src="img/services/turut.jpg" class="card-img-top" alt="services/pulsa">
               <div class="card-body">
-                <p class="card-text text-center"><a href="#"class="text-primary fw-bold">PERALATAN SEKOLAH</a></p>
+                <p class="card-text text-center"><b> BUKU TURUTAN</b> <br>Rp.6.000 (Kosong)</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
             <div class="card">
-              <img src="img/services/sekolah.jpg" class="card-img-top" alt="services/pulsa">
+              <img src="img/services/tuntun.jpg" class="card-img-top" alt="services/tuntunan">
               <div class="card-body">
-                <p class="card-text text-center"><a href="#"class="text-primary fw-bold">SERBA-SERBI SEKOLAH</a></p>
+                <p class="card-text text-center"><b>TUNTUNAN SHOLAT</b> <br>Rp.10.000 (Ready)</p>
+              </div>
+            </div>
+          </div><div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
+            <div class="card">
+              <img src="img/services/qur'an.jpg" class="card-img-top" alt="services/qur'an">
+              <div class="card-body">
+                <p class="card-text text-center"><b>KITAB ALQUR'AN</b> <br> Rp.- <br>(Ready)</p>
               </div>
             </div>
           </div>
-          -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-4 p-1">
+            <div class="card">
+              <img src="img/services/pepak.jpg" class="card-img-top" alt="services/pulsa">
+              <div class="card-body">
+                <p class="card-text text-center"><b>PEPAK B.JAWA</b> <BR>Rp.18.000<br>(Kosong )</p>
+              </div>
+            </div>
+          </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,133.3C672,149,768,171,864,192C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </section>
-          <!--Akhir Servises-->
+          <!--Akhir Daftar Buku-->
     <!--Contact-->
     <section id="contact">
       <div class="container">
